@@ -1,12 +1,9 @@
 # flutter_packager
 
-![coverage][coverage_badge]
-[![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
+[![pub version][pub-image]][pub-url]
 [![License: MIT][license_badge]][license_link]
 
-A complete tool for packaging your Flutter apps..
-
----
+> A complete tool for packaging your Flutter apps.
 
 ## Getting Started 🚀
 
@@ -61,8 +58,7 @@ $ open coverage/index.html
 
 ---
 
-[coverage_badge]: coverage_badge.svg
+[pub-image]: https://img.shields.io/pub/v/flutter_packager.svg?style=flat-square
+[pub-url]: https://pub.dev/packages/flutter_packager
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[license_link]: https://opensource.org/licenses/MIT
-[very_good_analysis_badge]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
-[very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
+[license_link]: https://github.com/kjxbyz/flutter_packager/blob/main/LICENSE

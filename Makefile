@@ -12,6 +12,9 @@ clean: ## Clean the environment
 	echo "╠ Installing dependencies..."
 	make get
 
+build:
+	fvm dart run build_runner build --delete-conflicting-outputs
+
 prepublish: ## Prepublish this package
 	echo "╠ Installing dependencies..."
 	fvm dart pub publish --dry-run
