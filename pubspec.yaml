@@ -1,0 +1,31 @@
+name: flutter_packager
+description: A complete tool for packaging your Flutter apps.
+version: 0.0.1-dev.0
+homepage: https://kjxbyz.com/tools/flutter/packager
+repository: https://github.com/kjxbyz/flutter_packager
+issue_tracker: https://github.com/kjxbyz/flutter_packager/issues
+
+platforms:
+  linux:
+  macos:
+  windows:
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  args: ^2.4.2
+  cli_completion: ^0.5.0
+  mason_logger: ^0.2.12
+  pub_updater: ^0.4.0
+
+dev_dependencies:
+  build_runner: ^2.4.8
+  build_verify: ^3.1.0
+  build_version: ^2.1.1
+  mocktail: ^1.0.3
+  test: ^1.25.2
+  very_good_analysis: ^5.1.0
+
+executables:
+  main:
